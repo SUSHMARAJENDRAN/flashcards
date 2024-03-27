@@ -1,0 +1,97 @@
+body {
+    background-color: whitesmoke;
+}
+.main{
+    width:30%;
+    height: 250px;
+    box-shadow: 8px 8px 8px 8px rgb(179, 174, 174);
+    margin-top: 23px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px;
+}
+input{
+    height: 30px;
+    width:90%;
+   border: none;
+   background-color: whitesmoke;
+}
+p{
+    text-align: left;
+    margin-bottom: 0%;
+    position: relative;
+    top:19px;
+    color: blueviolet;
+    left: 19px;
+}
+.save{
+    width:60px;
+    height: 35px;
+    align-items: center;
+   margin-left: 45px;
+   margin-top: 10px;
+   color:blueviolet
+}
+.cancel
+{
+    width:60px;
+    height: 35px;
+    align-items: center;
+   margin-left: 45px;
+   margin-top: 10px;
+   color:blueviolet
+}
+.head{
+    margin-top: 40px;
+   
+}
+.answer{
+    display: flex;
+}
+.he{
+    display: flex;
+    background-color: white;
+}
+h1{
+    flex: 4;
+    text-align: left;
+}
+.butt ,button{
+   
+ 
+
+   margin-top: 16px;
+  
+   height: 35px;
+   
+   color:blueviolet;
+flex:2
+}
+.flash{
+    width:30%;
+    height: 150px;
+    box-shadow: 8px 8px 8px 8px rgb(179, 174, 174);
+    margin-top: 23px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 5px; 
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: blueviolet;
+ 
+    
+}
+.flash,h2{
+   margin-top:10px;
+   position: relative;
+   top:23px;
+   color: blue;
+
+
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
